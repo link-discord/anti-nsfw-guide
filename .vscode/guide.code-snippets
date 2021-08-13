@@ -1,0 +1,70 @@
+// https://code.visualstudio.com/docs/editor/userdefinedsnippets#_project-snippet-scope
+// custom element explanations: https://github.com/discordjs/guide/blob/main/CONTRIBUTING.md
+// mocking discord messages: https://github.com/Danktuary/vue-discord-message
+
+{
+	"tip": {
+		"prefix": "tip",
+		"description": "insert a tip element",
+		"body": [
+			"::: tip",
+			"$1",
+			":::"
+		]
+	},
+	"warning": {
+		"prefix": "warning",
+		"description": "insert a warning element",
+		"body": [
+			"::: warning",
+			"$1",
+			":::"
+		]
+	},
+	"danger": {
+		"prefix": "danger",
+		"description": "insert a danger element",
+		"body": [
+			"::: danger",
+			"$1",
+			":::"
+		]
+	},
+	"image": {
+		"prefix": ["image", "img"],
+		"description": "image tag",
+		"body": "![${1:some alt text}](~@${2:/images/AfFp7pu.png})"
+	},
+	"messages": {
+		"prefix": ["messages", "discord-messages"],
+		"description": "mock discord message wrapper",
+		"body": [
+			"<DiscordMessages>",
+			"\t$1",
+			"</DiscordMessages>"
+		]
+	},
+	"message": {
+		"prefix": ["message", "discord-message"],
+		"description": "mock discord message",
+		"body": [
+			"<DiscordMessage profile=\"${1:user}\">",
+			"\t${3:You can mock mentions with <DiscordMention>someone</DiscordMention> and mark the message as highlighted (mentioning the logged in user) with <DiscordMention :highlight=\"true\">someone</DiscordMention>}$0",
+			"</DiscordMessage>"
+		]
+	},
+	"docs": {
+		"prefix": ["docs", "djs-docs"],
+		"description": "version sensitive link to the discord.js documentation",
+		"body": [
+			"<DocsLink path=\"${1:class/Client}\" />"
+		]
+	},
+	"docs-collection": {
+		"prefix": ["docs-collection", "coll-docs"],
+		"description": "link to the discord.js collections",
+		"body": [
+			"<DocsLink section=\"collection\" path=\"${1:class/Collection?scrollTo=partition}\" type=\"method\" />"
+		]
+	}
+}

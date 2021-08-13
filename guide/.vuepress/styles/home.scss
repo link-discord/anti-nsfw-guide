@@ -1,0 +1,23 @@
+.home {
+	max-width: unset;
+	padding: 4rem 0 0;
+
+	.hero {
+		background-color: var(--theme-500);
+		padding: 2rem 0;
+
+		img {
+			margin: 0 auto;
+		}
+
+		.description {
+			color: var(--text-gray);
+			max-width: unset;
+		}
+	}
+
+	.theme-default-content {
+		margin: 0 auto;
+		padding: 0 2rem;
+	}
+}
