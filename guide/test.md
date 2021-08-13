@@ -36,8 +36,8 @@ This is a warning message
 This is a danger message
 :::
 
-## Usage	
-
+## Usage
+<br />
 <DiscordMessages>
 	<DiscordMessage profile="user">
 		.prefix
