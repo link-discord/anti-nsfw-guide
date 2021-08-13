@@ -30,7 +30,7 @@ export default defineClientAppEnhance(({ app }) => {
 				avatar: 'green',
 			},
 			bot: {
-				author: 'Guide Bot',
+				author: 'Anti NSFW',
 				avatar: 'djs',
 				bot: true,
 			},
