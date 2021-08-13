@@ -36,7 +36,7 @@ This is a warning message
 This is a danger message
 :::
 
-## Usage
+## Usage	
 
 <DiscordMessages>
 	<DiscordMessage profile="user">
