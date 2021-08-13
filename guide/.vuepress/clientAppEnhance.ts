@@ -27,11 +27,11 @@ export default defineClientAppEnhance(({ app }) => {
 		profiles: {
 			user: {
 				author: 'User',
-				avatar: 'djs',
+				avatar: 'green',
 			},
 			bot: {
 				author: 'Guide Bot',
-				avatar: 'green',
+				avatar: 'djs',
 				bot: true,
 			},
 		},
