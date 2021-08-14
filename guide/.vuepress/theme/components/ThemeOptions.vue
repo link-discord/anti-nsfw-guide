@@ -23,6 +23,14 @@
 					@click.prevent="setTheme({ colorTheme: 'purple', persist: true })"
 				></button>
 			</li>
+
+			<li>
+				<button
+					class="orange-theme"
+					title="Orange theme"
+					@click.prevent="setTheme({ colorTheme: 'orange', persist: true })"
+				></button>
+			</li>
 		</ul>
 	</div>
 </template>
@@ -75,6 +83,14 @@ const { setTheme } = useColorTheme();
 
 					&:hover {
 						background-color: var(--purple-530)
+					}
+				}
+
+				&.orange-theme {
+					background-color: var(--orange-500);
+
+					&:hover {
+						background-color: var(--orange-530)
 					}
 				}
 			}

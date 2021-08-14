@@ -1,6 +1,6 @@
 export default function useColorTheme() {
 	const setTheme = ({ colorTheme = 'default', persist = false }) => {
-		const themes = ['blurple', 'purple'];
+		const themes = ['blurple', 'purple', 'orange'];
 		const { classList } = document.documentElement;
 		const themesClasses = themes.map(theme => `guide-theme-${theme}`);
 
