@@ -20,3 +20,5 @@ Anti NSFW is supposed to be a better alternative to the Discord NSFW filter and 
 
 * [top.gg](https://top.gg/bot/706054368318980138)
 * [discords.com](https://discords.com/bots/bot/706054368318980138)
+
+[![Bots for Discord](https://discords.com/bots/api/bot/706054368318980138/widget)](https://discords.com/bots/bots/706054368318980138)
