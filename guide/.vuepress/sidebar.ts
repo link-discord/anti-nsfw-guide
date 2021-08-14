@@ -10,6 +10,7 @@ export default {
 			text: 'Commands',
 			children: [
 				'/commands/',
+				'/commands/help.md',
 				'/commands/info.md',
 				'/commands/ping.md',
 				'/commands/scan.md',
