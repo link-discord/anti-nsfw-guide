@@ -31,7 +31,8 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		sidebarDepth: 3,
 		editLinks: true,
 		smoothScroll: true,
-		lastUpdated: false,
+		lastUpdated: true,
+		docsRepo: 'https://github.com/link-discord/anti-nsfw-guide',
 		navbar: [
 			{
 				text: 'Support Server',
