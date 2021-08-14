@@ -11,6 +11,7 @@ export default {
 			text: 'Commands',
 			children: [
 				'/commands/',
+				'/commands/ping.md'
 			],
 		}
 	],
