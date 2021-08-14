@@ -4,15 +4,13 @@ export default {
 			text: 'Home',
 			children: [
 				'/',
-				'/requesting-more-content.md',
-				'/whats-new.md',
 				'/test.md'
 			],
 		},
 		{
-			text: 'Command Handler',
+			text: 'Commands',
 			children: [
-				'/command-handling/',
+				'/commands/',
 			],
 		}
 	],
