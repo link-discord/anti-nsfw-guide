@@ -16,6 +16,7 @@ html.guide-theme-purple {
 
 html.guide-theme-orange {
 	--nav-background-color: var(--theme-560);
+	--nav-links-color: rgba(219, 133, 3, 0.9);
 }
 
 @mixin navLink() {
