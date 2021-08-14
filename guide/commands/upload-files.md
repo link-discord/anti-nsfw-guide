@@ -1,6 +1,6 @@
 # Upload Files
 
-You can use this command to make the bot log the images it filtered out.
+You can use this command to make the bot log the images it filtered out.<br />
 This requires you to have a logs channel already set using the [set-logs](/commands/set-logs/) command.
 
 ::: warning
