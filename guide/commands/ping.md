@@ -3,6 +3,7 @@
 Returns the ping of the bot in milliseconds.
 
 ## Usage
+<br />
 <DiscordMessages>
 	<DiscordMessage profile="user">
 		/ping
