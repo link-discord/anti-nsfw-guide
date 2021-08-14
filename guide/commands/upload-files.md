@@ -8,6 +8,7 @@ This command requires you to have the `Manage Guild` permission.
 :::
 
 ## Usage
+
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">

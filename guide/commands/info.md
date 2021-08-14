@@ -3,6 +3,7 @@
 Gives you information about the bot such as its uptime and the bot owner.
 
 ## Usage
+
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">

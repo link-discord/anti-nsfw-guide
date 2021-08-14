@@ -8,6 +8,7 @@ Also this command will only accept images from `i.imgur.com`
 :::
 
 ## Usage
+
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">

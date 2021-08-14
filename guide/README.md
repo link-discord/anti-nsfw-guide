@@ -18,8 +18,8 @@ Anti NSFW is supposed to be a better alternative to the Discord NSFW filter and 
 
 ## Links
 
-* [top.gg](https://top.gg/bot/706054368318980138)
-* [discords.com](https://discords.com/bots/bot/706054368318980138)
+-   [top.gg](https://top.gg/bot/706054368318980138)
+-   [discords.com](https://discords.com/bots/bot/706054368318980138)
 
 <a href="https://discords.com/bots/bots/706054368318980138" >
     <img src="https://discords.com/bots/api/bot/706054368318980138/widget"
