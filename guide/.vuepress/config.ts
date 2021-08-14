@@ -38,6 +38,10 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 			{
 				text: 'Support Server',
 				link: 'https://discord.gg/wnsuUvCDKV',
+			},
+			{
+				text: 'Invite Anti NSFW',
+				link: 'https://discord.com/oauth2/authorize?client_id=706054368318980138&scope=applications.commands+bot&permissions=69256439808'
 			}
 		],
 		themePlugins: {
