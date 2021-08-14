@@ -36,12 +36,12 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		docsRepo: 'https://github.com/link-discord/anti-nsfw-guide',
 		navbar: [
 			{
-				text: 'Support Server',
-				link: 'https://discord.gg/wnsuUvCDKV',
-			},
-			{
 				text: 'Invite Anti NSFW',
 				link: 'https://discord.com/oauth2/authorize?client_id=706054368318980138&scope=applications.commands+bot&permissions=69256439808'
+			},
+			{
+				text: 'Support Server',
+				link: 'https://discord.gg/wnsuUvCDKV',
 			}
 		],
 		themePlugins: {
