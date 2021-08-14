@@ -14,7 +14,7 @@ Also this command will only accept images from i.imgur.com
 		/scan https://i.imgur.com/hngd26Z.jpeg
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
-		Category: Neutral
+		Category: Neutral<br />
         Probability: 98%
 	</DiscordMessage>
 </DiscordMessages>
