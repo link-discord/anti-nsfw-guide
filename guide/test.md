@@ -45,7 +45,7 @@ This is a danger message
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">
-		/set-logs #channel
+		/set-logs <bold>#channel</bold>
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
 		The logs channel has been set to <code class="discord-message-inline-code">#channel</code>.
