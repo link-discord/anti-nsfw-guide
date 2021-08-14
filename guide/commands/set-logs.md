@@ -4,7 +4,7 @@ Lets you set the logs channel you want the bot to send logs to.<br />
 Everytime the bot filters a message it will send a message to the logs channel you have specified.
 
 ::: warning
-This command requires you to have the `Manage Guild` permission.
+This command requires you to have the `Manage Guild` permission.<br />
 The channel you select must be a text channel.
 :::
 
