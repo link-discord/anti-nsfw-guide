@@ -1,100 +1,96 @@
 <template>
-	<div class="theme-options">
-		<ul class="color-theme-options">
-			<span>Theme</span>
-			<li>
-				<button
-					class="default-theme"
-					title="Green theme"
-					@click.prevent="setTheme({ persist: true })"
-				></button>
-			</li>
-			<li>
-				<button
-					class="blurple-theme"
-					title="Blurple theme"
-					@click.prevent="setTheme({ colorTheme: 'blurple', persist: true })"
-				></button>
-			</li>
-			<li>
-				<button
-					class="purple-theme"
-					title="Purple theme"
-					@click.prevent="setTheme({ colorTheme: 'purple', persist: true })"
-				></button>
-			</li>
+    <div class="theme-options">
+        <ul class="color-theme-options">
+            <span>Theme</span>
+            <li>
+                <button class="default-theme" title="Green theme" @click.prevent="setTheme({ persist: true })"></button>
+            </li>
+            <li>
+                <button
+                    class="blurple-theme"
+                    title="Blurple theme"
+                    @click.prevent="setTheme({ colorTheme: 'blurple', persist: true })"
+                ></button>
+            </li>
+            <li>
+                <button
+                    class="purple-theme"
+                    title="Purple theme"
+                    @click.prevent="setTheme({ colorTheme: 'purple', persist: true })"
+                ></button>
+            </li>
 
-			<li>
-				<button
-					class="orange-theme"
-					title="Orange theme"
-					@click.prevent="setTheme({ colorTheme: 'orange', persist: true })"
-				></button>
-			</li>
-		</ul>
-	</div>
+            <li>
+                <button
+                    class="orange-theme"
+                    title="Orange theme"
+                    @click.prevent="setTheme({ colorTheme: 'orange', persist: true })"
+                ></button>
+            </li>
+        </ul>
+    </div>
 </template>
 
 <script setup lang="ts">
-import useColorTheme from '../composables/useColorTheme';
+import useColorTheme from '../composables/useColorTheme'
 
-const { setTheme } = useColorTheme();
+const { setTheme } = useColorTheme()
 </script>
 
 <style lang="scss">
 .theme-options {
-	.color-theme-options {
-		display: flex;
+    .color-theme-options {
+        display: flex;
 
-		> span {
-			margin-right: auto;
-		}
+        > span {
+            margin-right: auto;
+        }
 
-		li {
-			margin-left: 0.5rem;
+        li {
+            margin-left: 0.5rem;
 
-			button {
-				color: #fff;
-				display: block;
-				width: 1.25rem;
-				height: 1.25rem;
-				border: 0;
-				border-radius: 2px;
-				cursor: pointer;
+            button {
+                color: #fff;
+                display: block;
+                width: 1.25rem;
+                height: 1.25rem;
+                border: 0;
+                border-radius: 2px;
+                cursor: pointer;
 
-				&.default-theme {
-					background-color: var(--green-500);
+                &.default-theme {
+                    background-color: var(--green-500);
 
-					&:hover {
-						background-color: var(--green-530)
-					}
-				}
+                    &:hover {
+                        background-color: var(--green-530);
+                    }
+                }
 
-				&.blurple-theme {
-					background-color: var(--blurple-500);
+                &.blurple-theme {
+                    background-color: var(--blurple-500);
 
-					&:hover {
-						background-color: var(--blurple-530)
-					}
-				}
+                    &:hover {
+                        background-color: var(--blurple-530);
+                    }
+                }
 
-				&.purple-theme {
-					background-color: var(--purple-500);
+                &.purple-theme {
+                    background-color: var(--purple-500);
 
-					&:hover {
-						background-color: var(--purple-530)
-					}
-				}
+                    &:hover {
+                        background-color: var(--purple-530);
+                    }
+                }
 
-				&.orange-theme {
-					background-color: var(--orange-500);
+                &.orange-theme {
+                    background-color: var(--orange-500);
 
-					&:hover {
-						background-color: var(--orange-530)
-					}
-				}
-			}
-		}
-	}
+                    &:hover {
+                        background-color: var(--orange-530);
+                    }
+                }
+            }
+        }
+    }
 }
 </style>
