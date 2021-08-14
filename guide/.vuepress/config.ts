@@ -14,7 +14,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		['meta', { charset: 'utf-8' }],
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
 		['link', { rel: 'icon', href: '/favicon.png' }],
-		['meta', { name: 'theme-color', content: '#820243' }],
+		['meta', { name: 'theme-color', content: 'FB0881' }],
 		['meta', { name: 'twitter:card', content: 'summary' }],
 		['meta', { property: 'og:title', content: 'Anti NSFW Guide' }],
 		['meta', { property: 'og:description', content: 'The official guide for Anti NSFW.' }],
