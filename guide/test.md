@@ -45,21 +45,9 @@ This is a danger message
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">
-		.prefix
+		/set-logs #channel
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
-		Prefix is <code class="discord-message-inline-code">.</code>
-	</DiscordMessage>
-	<DiscordMessage profile="user">
-		.prefix $
-	</DiscordMessage>
-	<DiscordMessage profile="bot">
-		Successfully set prefix to <code class="discord-message-inline-code">$</code>
-	</DiscordMessage>
-	<DiscordMessage profile="user">
-		$prefix
-	</DiscordMessage>
-	<DiscordMessage profile="bot">
-		Prefix is <code class="discord-message-inline-code">$</code>
+		The logs channel has been set to <code class="discord-message-inline-code">#channel</code>.
 	</DiscordMessage>
 </DiscordMessages>
