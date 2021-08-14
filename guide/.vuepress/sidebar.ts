@@ -3,8 +3,7 @@ export default {
 		{
 			text: 'Home',
 			children: [
-				'/',
-				'/test.md'
+				'/'
 			],
 		},
 		{
