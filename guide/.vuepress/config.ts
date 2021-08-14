@@ -45,17 +45,4 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	plugins: [],
 });
 
-// if (process.env.NODE_ENV === 'production') {
-// 	config.plugins.push(
-// 		[
-// 			'@vuepress/plugin-docsearch',
-// 			{
-// 				apiKey: process.env.ALGOLIA_DOCSEARCH_API_KEY,
-// 				indexName: 'antinsfw',
-// 				placeholder: 'Search guide',
-// 			},
-// 		]
-// 	);
-// }
-
 export default config;
