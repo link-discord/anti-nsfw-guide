@@ -1,3 +1,2 @@
 # Commands
-Below you can see a detailed explenation of all the commands Anti NSFW has to offer.
-This guide will explain how to use the commands to their full extent.
+In the commands section you will learn how to use each command and what they do.
