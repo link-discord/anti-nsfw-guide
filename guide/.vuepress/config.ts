@@ -15,8 +15,14 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         ['meta', { charset: 'utf-8' }],
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
         ['link', { rel: 'icon', href: '/favicon.png' }],
-        ['meta', { name: 'theme-color', content: 'FB0881' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#fb0881' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+        ['link', { rel: 'apple-touch-icon', href: '/icons/icon-152x152.png' }],
         ['meta', { name: 'twitter:card', content: 'summary' }],
+        ['meta', { name: 'msapplication-TileImage', content: '/icons/icon-144x144.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#fb0881' }],
         ['meta', { property: 'og:title', content: 'Anti NSFW Guide' }],
         ['meta', { property: 'og:description', content: 'The official guide for Anti NSFW.' }],
         ['meta', { property: 'og:type', content: 'website' }],
@@ -48,7 +54,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
             mediumZoom: false
         }
     },
-    plugins: []
+    plugins: ['@vuepress/pwa', 'vuepress-plugin-nprogress', 'vuepress-plugin-smooth-scroll']
 })
 
 export default config
