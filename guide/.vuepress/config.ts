@@ -11,7 +11,6 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     title: 'Anti NSFW Guide',
     description: 'The official guide for Anti NSFW.',
     head: [
-        ['script', { src: 'https://arc.io/widget.min.js#Mrx2qVyY' }],
         ['meta', { charset: 'utf-8' }],
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
         ['link', { rel: 'icon', href: '/favicon.png' }],
