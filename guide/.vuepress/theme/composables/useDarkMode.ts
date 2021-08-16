@@ -32,7 +32,7 @@ export default function useDarkMode(): { isDarkMode: Ref<boolean> } {
         isDarkMode.value = userMode === 'dark' || (userMode !== 'light' && mediaQuery.value.matches)
 
         // watch changes
-        mediaQuery.value.addEventListener('change', onMediaQueryChange)
+        mediaQuery.value.addEventListener('change', onMediaQueryChange, { passive: true })
         watch(isDarkMode, updateDarkModeClass, { immediate: true })
     })
 
