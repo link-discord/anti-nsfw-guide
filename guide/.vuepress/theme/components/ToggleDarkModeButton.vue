@@ -1,5 +1,5 @@
 <template>
-    <button class="toggle-dark-button" @click="toggleDarkMode">
+    <button class="toggle-dark-button" @click="toggleDarkMode" aria-label="toggle dark mode">
         <svg class="icon light-icon" focusable="false" viewBox="0 0 32 32">
             <path
                 d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z"
