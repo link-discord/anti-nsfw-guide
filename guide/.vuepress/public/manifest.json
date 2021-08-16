@@ -3,7 +3,7 @@
     "short_name": "Anti NSFW",
     "theme_color": "#3eaf7c",
     "background_color": "#1d1d1d",
-    "display": "browser",
+    "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
