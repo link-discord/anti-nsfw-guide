@@ -23,6 +23,8 @@ Anti NSFW is supposed to be a better alternative to the Discord NSFW filter and 
 
 <a href="https://discords.com/bots/bots/706054368318980138" >
     <img src="https://discords.com/bots/api/bot/706054368318980138/widget"
+        width="300"
+        height="150"
         title="Visit Anti NSFW listed on Discords.com!"
         alt="Anti NSFW's Widget Failed to Load"
     />
