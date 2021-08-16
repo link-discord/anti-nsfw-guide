@@ -56,7 +56,12 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
             mediumZoom: false
         }
     },
-    plugins: ['@vuepress/pwa', 'vuepress-plugin-nprogress', 'vuepress-plugin-smooth-scroll']
+    plugins: [
+        '@vuepress/pwa',
+        'vuepress-plugin-nprogress',
+        'vuepress-plugin-smooth-scroll',
+        'vuepress-plugin-dehydrate'
+    ]
 })
 
 export default config
