@@ -23,7 +23,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         ['link', { rel: 'mask-icon', href: '/icons/icon-152x152.png', color: '#fb0881' }],
         ['meta', { name: 'twitter:card', content: 'summary' }],
         ['meta', { name: 'msapplication-TileImage', content: '/icons/icon-144x144.png' }],
-        ['meta', { name: 'msapplication-TileColor', content: '#fb0881' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#1d1d1d' }],
         ['meta', { property: 'og:title', content: 'Anti NSFW Guide' }],
         ['meta', { property: 'og:description', content: 'The official guide for Anti NSFW.' }],
         ['meta', { property: 'og:type', content: 'website' }],
