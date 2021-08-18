@@ -58,6 +58,7 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     },
     plugins: [
         '@vuepress/pwa',
+        '@vuepress/plugin-search',
         'vuepress-plugin-nprogress',
         'vuepress-plugin-smooth-scroll',
         'vuepress-plugin-dehydrate'

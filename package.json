@@ -25,17 +25,18 @@
     "homepage": "https://anti-nsfw.netlify.app",
     "devDependencies": {
         "@vue/component-compiler-utils": "^3.2.2",
-        "@vuepress/plugin-docsearch": "^2.0.0-beta.23",
+        "@vuepress/plugin-docsearch": "^2.0.0-beta.24",
         "@vuepress/plugin-pwa": "^1.8.2",
+        "@vuepress/plugin-search": "^1.8.2",
         "babel-eslint": "^10.0.1",
         "eslint": "^7.18.0",
         "eslint-config-sora": "^3.1.0",
         "eslint-plugin-markdown": "^1.0.0",
-        "eslint-plugin-vue": "^7.5.0",
+        "eslint-plugin-vue": "^7.16.0",
         "vuepress-plugin-dehydrate": "^1.1.5",
         "vuepress-plugin-nprogress": "^1.1.8",
         "vuepress-plugin-smooth-scroll": "0.0.10",
-        "vuepress-vite": "^2.0.0-beta.23"
+        "vuepress-vite": "^2.0.0-beta.24"
     },
     "dependencies": {
         "@discord-message-components/vue": "^0.2.1"
