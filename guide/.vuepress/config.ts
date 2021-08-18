@@ -28,7 +28,8 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         ['meta', { property: 'og:type', content: 'website' }],
         ['meta', { property: 'og:url', content: 'https://anti-nsfw.netlify.app/' }],
         ['meta', { property: 'og:locale', content: 'en_US' }],
-        ['meta', { property: 'og:image', content: '/meta-image.png' }]
+        ['meta', { property: 'og:image', content: '/meta-image.png' }],
+        ['script', { src: 'https://feature.so/go.js' }]
     ],
     theme: path.join(__dirname, 'theme', 'index.ts'),
     themeConfig: {
