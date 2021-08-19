@@ -31,7 +31,7 @@ import ToggleDarkModeButton from './ToggleDarkModeButton.vue'
 import ToggleSidebarButton from './ToggleSidebarButton.vue'
 
 // NOTE: May need to be renamed to `defineEmits` in a later Vue 3.x version
-defineEmit(['toggle-sidebar'])
+defineEmits(['toggle-sidebar'])
 
 const routeLocale = useRouteLocale()
 const siteLocale = useSiteLocaleData()
