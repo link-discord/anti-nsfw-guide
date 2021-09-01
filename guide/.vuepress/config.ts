@@ -74,6 +74,7 @@ if (ALGOLIA_DOCSEARCH_API_KEY) {
             {
                 apiKey: ALGOLIA_DOCSEARCH_API_KEY,
                 indexName: 'antinsfw',
+                appId: '3Y6YFYMCEB',
                 placeholder: 'Search guide'
             }
         ]
