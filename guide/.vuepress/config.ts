@@ -1,6 +1,6 @@
 import path from 'path'
 import { defineUserConfig } from 'vuepress-vite'
-import type { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite'
+import { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite'
 import sidebar from './sidebar'
 
 const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
@@ -45,7 +45,8 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         navbar: [
             {
                 text: 'Invite Anti NSFW',
-                link: 'https://discord.com/oauth2/authorize?client_id=706054368318980138&scope=applications.commands+bot&permissions=69256439808'
+                link:
+                    'https://discord.com/oauth2/authorize?client_id=706054368318980138&scope=applications.commands+bot&permissions=69256439808'
             },
             {
                 text: 'Support Server',
@@ -64,16 +65,19 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     ]
 })
 
-if (process.env.NODE_ENV === 'production') {
-    config.plugins.push([
-        '@vuepress/plugin-docsearch',
-        false
-        // {
-        //     apiKey: process.env.ALGOLIA_DOCSEARCH_API_KEY,
-        //     indexName: 'discordjs',
-        //     placeholder: 'Search guide'
-        // }
-    ])
+const { ALGOLIA_DOCSEARCH_API_KEY } = process.env
+
+if (ALGOLIA_DOCSEARCH_API_KEY) {
+    config.plugins.push(
+        [
+            '@vuepress/plugin-docsearch',
+            {
+                apiKey: ALGOLIA_DOCSEARCH_API_KEY,
+                indexName: 'antinsfw',
+                placeholder: 'Search guide'
+            }
+        ]
+    )
 }
 
 export default config
