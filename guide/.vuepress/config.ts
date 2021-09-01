@@ -67,16 +67,14 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 const { ALGOLIA_DOCSEARCH_API_KEY } = process.env
 
 if (ALGOLIA_DOCSEARCH_API_KEY) {
-    config.plugins.push(
-        [
-            '@vuepress/plugin-docsearch',
-            {
-                apiKey: ALGOLIA_DOCSEARCH_API_KEY,
-                indexName: 'antinsfw',
-                placeholder: 'Search guide'
-            }
-        ]
-    )
+    config.plugins.push([
+        '@vuepress/plugin-docsearch',
+        {
+            apiKey: ALGOLIA_DOCSEARCH_API_KEY,
+            indexName: 'antinsfw',
+            placeholder: 'Search guide'
+        }
+    ])
 }
 
 export default config
