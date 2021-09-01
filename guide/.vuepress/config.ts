@@ -72,6 +72,7 @@ if (ALGOLIA_DOCSEARCH_API_KEY) {
             '@vuepress/plugin-docsearch',
             {
                 apiKey: ALGOLIA_DOCSEARCH_API_KEY,
+                appId: 'ZZ165XRUPE',
                 indexName: 'antinsfw',
                 placeholder: 'Search guide'
             }
