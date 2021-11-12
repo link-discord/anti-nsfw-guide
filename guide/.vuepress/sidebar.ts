@@ -13,8 +13,7 @@ export default {
                 '/commands/ping.md',
                 '/commands/scan.md',
                 '/commands/set-logs.md',
-                '/commands/support.md',
-                '/commands/upload-files.md'
+                '/commands/support.md'
             ]
         }
     ]
