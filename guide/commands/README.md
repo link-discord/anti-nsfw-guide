@@ -11,4 +11,3 @@ All commands are slash commands so make sure you authorized the bot to use them.
 -   [scan](/commands/scan)
 -   [set-logs](/commands/set-logs)
 -   [support](/commands/support)
--   [upload-files](/commands/upload-files)
