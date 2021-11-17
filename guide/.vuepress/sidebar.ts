@@ -15,6 +15,13 @@ export default {
                 '/commands/set-logs.md',
                 '/commands/support.md'
             ]
+        },
+        {
+            text: 'Legal Stuff',
+            children: [
+                '/privacy-policy/',
+                '/terms-of-service/'
+            ]
         }
     ]
 }
