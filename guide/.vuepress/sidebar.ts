@@ -18,10 +18,7 @@ export default {
         },
         {
             text: 'Legal Stuff',
-            children: [
-                '/privacy-policy/',
-                '/terms-of-service/'
-            ]
+            children: ['/privacy-policy/', '/terms-of-service/']
         }
     ]
 }
