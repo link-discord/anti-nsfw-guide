@@ -45,11 +45,11 @@ const config = defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         navbar: [
             {
                 text: 'Invite Anti NSFW',
-                link: 'https://discord.com/oauth2/authorize?client_id=706054368318980138&scope=applications.commands+bot&permissions=69256439808'
+                link: 'https://discord.com/api/oauth2/authorize?client_id=706054368318980138&scope=applications.commands+bot&permissions=69256439808'
             },
             {
                 text: 'Support Server',
-                link: 'https://discord.gg/wnsuUvCDKV'
+                link: 'https://discord.gg/fqyjzPZZb9'
             }
         ],
         themePlugins: {
