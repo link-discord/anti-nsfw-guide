@@ -10,4 +10,5 @@ All commands are slash commands so make sure you authorized the bot to use them.
 -   [ping](/commands/ping)
 -   [scan](/commands/scan)
 -   [set-logs](/commands/set-logs)
+-   [set-threshold](/commands/set-threshold)
 -   [support](/commands/support)
