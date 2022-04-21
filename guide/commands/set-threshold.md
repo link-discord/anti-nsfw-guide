@@ -1,4 +1,4 @@
-# Set Logs
+# Set Treshold
 
 Lets you set the threshold potentional NSFW images need to be pass to be considered actual NSFW.<br />
 You can set the threshold in % and if the prediction is higher than your threshold the message is deleted.
