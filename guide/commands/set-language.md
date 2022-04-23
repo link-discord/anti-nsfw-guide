@@ -14,6 +14,12 @@ This command requires you to have the `Manage Guild` permission.<br />
 		/set-language de
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
-		The language has been set to de
+		Die Sprache wurde auf de eingestellt.
+	</DiscordMessage>
+	<DiscordMessage profile="user">
+		/set-language en
+	</DiscordMessage>
+	<DiscordMessage profile="bot">
+		The language has been set to en.
 	</DiscordMessage>
 </DiscordMessages>
