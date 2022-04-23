@@ -12,8 +12,8 @@ export default {
                 '/commands/info.md',
                 '/commands/ping.md',
                 '/commands/scan.md',
-				'/commands/set-logs.md',
-				'/commands/set-language.md',
+                '/commands/set-logs.md',
+                '/commands/set-language.md',
                 '/commands/set-threshold.md',
                 '/commands/support.md'
             ]
