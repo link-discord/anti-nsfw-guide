@@ -5,7 +5,7 @@ Every command is listed here with a detailed description and a usage example.
 
 ## What is Anti NSFW?
 
-Anti NSFW is a Discord Bot made by [Link](https://top.gg/user/476662199872651264) that can be used to filter out NSFW content from your server. <br />
+Anti NSFW is a Discord Bot made by [Link](https://github.com/link-discord) that can be used to filter out NSFW content from your server. <br />
 It will scan all messages for NSFW content and delete any messages the AI thinks to be NSFW content.
 
 ## Why should I use Anti NSFW?

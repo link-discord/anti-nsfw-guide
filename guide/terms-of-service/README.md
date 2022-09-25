@@ -1,6 +1,6 @@
 # Terms of Service
 
-Last updated: November 17, 2021
+Last updated: September 25, 2022
 
 Please read these Terms of Service carefully before using Our Service.
 
@@ -18,7 +18,7 @@ For these Terms of Service:
 
 -   **Country** refers to North Rhine-Westphalia, Germany
 
--   **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Anti NSFW.
+-   **Company** (referred to as either "We", "Us" or "Our" in this Agreement) refers to Anti NSFW.
 
 -   **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
 
@@ -26,31 +26,31 @@ For these Terms of Service:
 
 -   **Service** refers to the Bot as well as the Website.
 
--   **Terms of Service** (also referred to as "Terms") mean these Terms of Service that form the entire agreement between You and the Company regarding the use of the Service.
+-   **Terms of Service** (also referred to as "Terms") mean these Terms of Service that form the entire agreement between You and us regarding the use of the Service.
 
 -   **Third-party Social** Media Service means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
 
 -   **Website** refers to the Anti NSFW website, accessible from [https://anti-nsfw.netlify.app](https://anti-nsfw.netlify.app)
 
--   **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+-   **You** means the individual accessing or using the Service, or us, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
 # Acknowledgement
 
-These are the Terms of Service governing the use of this Service and the agreement that operates between You and the Company. These Terms of Service set out the rights and obligations of all users regarding the use of the Service.
+These are the Terms of Service governing the use of this Service and the agreement that operates between You and us. These Terms of Service set out the rights and obligations of all users regarding the use of the Service.
 
 Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms of Service. These Terms of Service apply to all visitors, users and others who access or use the Service.
 
 By accessing or using the Service You agree to be bound by these Terms of Service. If You disagree with any part of these Terms of Service then You may not access the Service.
 
-You represent that you are over the age of 13. The Company does not permit those under 13 to use the Service.
+You represent that you are over the age of 13. We do not permit those under 13 to use the Service.
 
-Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
+Your access to and use of the Service is also conditioned on Your acceptance of and compliance with our Privacy Policy. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
 
 # Links to Other Websites
 
-Our Service may contain links to third-party websites or services that are not owned or controlled by the Company.
+Our Service may contain links to third-party websites or services that are not owned or controlled by us.
 
-The Company has no control over and assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
+We have no control over and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that we shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
 
 We strongly advise You to read the Terms of Service and privacy policies of any third-party websites or services that You visit.
 
@@ -82,7 +82,7 @@ The laws of the Country, excluding its conflicts of law rules, shall govern this
 
 # Disputes Resolution
 
-If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
+If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting us.
 
 # For European Union (EU) Users
 
