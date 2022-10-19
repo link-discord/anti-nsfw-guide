@@ -12,5 +12,5 @@ All commands are slash commands so make sure you authorized the bot to use them.
 -   [set language](/commands/set-language)
 -   [set logs](/commands/set-logs)
 -   [set threshold](/commands/set-threshold)
--	[strict](/commands/strict)
+-   [strict](/commands/strict)
 -   [support](/commands/support)
