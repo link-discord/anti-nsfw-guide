@@ -13,7 +13,7 @@ The threshold must be between 50% and 98%.
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">
-		/set-threshold 80
+		/set threshold 80
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
 		The logs channel has been set to 80%

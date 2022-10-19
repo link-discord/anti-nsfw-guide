@@ -1,6 +1,7 @@
-# Set Language
+# Strict
 
-Lets you set the language for your server. Every message the bot sends will be in the language you have chosen.<br />
+Allows you to make the bot be "more stricter". This option is disabled by default and can be enabled manually.<br />
+If this is set to true it will also delete images that are categorized as "sexy" such as bikini pictures.
 
 ::: warning
 This command requires you to have the `Manage Guild` permission.<br />
@@ -11,15 +12,15 @@ This command requires you to have the `Manage Guild` permission.<br />
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">
-		/set language de
+		/strict true
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
-		Die Sprache wurde auf de eingestellt.
+		Strict mode has been enabled.
 	</DiscordMessage>
 	<DiscordMessage profile="user">
-		/set language en
+		/strict false
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
-		The language has been set to en.
+		Strict mode has been disabled.
 	</DiscordMessage>
 </DiscordMessages>

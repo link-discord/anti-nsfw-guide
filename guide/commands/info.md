@@ -10,9 +10,9 @@ Gives you information about the bot such as its uptime and the bot owner.
 		/info
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
-		Bot Owner: Link#0069<br />
-        Bot Version: 2.0.0<br />
-        Bot Uptime: 2 days<br />
-        Bot Ping: 108ms
+		Owner: Link#0069<br />
+        Uptime: 2 days ago<br />
+        Ping: 256ms<br />
+		Contributors: Sawa Kyouki#3622<br />
 	</DiscordMessage>
 </DiscordMessages>

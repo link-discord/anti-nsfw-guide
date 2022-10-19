@@ -13,7 +13,7 @@ The channel you select must be a text channel.
 <br />
 <DiscordMessages>
 	<DiscordMessage profile="user">
-		/set-logs #channel
+		/set logs #channel
 	</DiscordMessage>
 	<DiscordMessage profile="bot">
 		The logs channel has been set to <code class="discord-message-inline-code">#channel</code>
